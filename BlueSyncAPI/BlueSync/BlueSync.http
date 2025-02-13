@@ -1,0 +1,6 @@
+@BlueSync_HostAddress = http://localhost:5113
+
+GET {{BlueSync_HostAddress}}/weatherforecast/
+Accept: application/json
+
+###
