@@ -1,11 +1,15 @@
 import React from "react";
 import { SafeAreaView } from "react-native";
 import DeviceList from "./components/DeviceList";
+import AudioSessionComponent from "./components/AudioSessionComponent";
+import DeviceGroupComponent from "./components/DeviceGroupComponent";
 
 const App: React.FC = () => {
     return (
         <SafeAreaView>
             <DeviceList />
+            <AudioSessionComponent />
+            <DeviceGroupComponent />
         </SafeAreaView>
     );
 };
