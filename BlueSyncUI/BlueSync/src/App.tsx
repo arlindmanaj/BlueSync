@@ -4,14 +4,14 @@ import DeviceList from "./components/DeviceList";
 import AudioSessionComponent from "./components/AudioSessionComponent";
 import DeviceGroupComponent from "./components/DeviceGroupComponent";
 
-const App: React.FC = () => {
+const App = () => {
     return (
-        <SafeAreaView>
-            <DeviceList />
-            <AudioSessionComponent />
-            <DeviceGroupComponent />
-        </SafeAreaView>
+      <SafeAreaView>
+        <DeviceList />
+        <AudioSessionComponent />
+        <DeviceGroupComponent />
+      </SafeAreaView>
     );
-};
+  };
 
 export default App;
